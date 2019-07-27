@@ -93,8 +93,8 @@ creative_commons:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/ddulic
   title: Follow me on GitHub
 
 
@@ -137,7 +137,7 @@ yandex_site_verification:
 baidu_site_verification:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-baidu_push: false
+baidu_push: true
 
 
 # ---------------------------------------------------------------
@@ -213,12 +213,6 @@ social_icons:
   # To encrypt links above use https://www.base64encode.org
   # Example encoded link: `GitHub: aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQ= || github`
   exturl: false
-
-# Follow me on GitHub banner in right-top corner.
-# Usage: `permalink || title`
-# Value before `||` delimeter is the target permalink.
-# Value after `||` delimeter is the title and aria-label name.
-github_banner: https://github.com/ddulic || Follow me on GitHub
 
 # Blog rolls
 links_icon: link
@@ -580,7 +574,7 @@ bookmark:
 # Reading progress bar
 # Dependencies: https://github.com/theme-next/theme-next-reading-progress
 reading_progress:
-  enable: true
+  enable: false
   color: "#87daff"
   height: 2px
 
@@ -608,7 +602,7 @@ calendar:
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: devops-things
   count: false
   lazyload: true
@@ -815,9 +809,6 @@ tencent_analytics: # <app_id>
 
 # Tencent MTA
 tencent_mta: # <app_id>
-
-# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: true
 
 # ---------------------------------------------------------------
 # Search Services
