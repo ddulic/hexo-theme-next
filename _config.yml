@@ -157,7 +157,7 @@ menu:
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
-  icons: false
+  icons: true
   badges: false
 
 
@@ -201,7 +201,7 @@ social:
 
 social_icons:
   enable: true
-  icons_only: false
+  icons_only: true
   transition: false
   # Dependencies: exturl: true in Tags Settings section below.
   # To encrypt links above use https://www.base64encode.org
