@@ -1009,7 +1009,7 @@ vendors:
   # See: https://fontawesome.com
   # Example:
   # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
-  fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/solid.min.js
+  fontawesome:
 
   # Internal version: 2.10.4
   # See: https://www.algolia.com
